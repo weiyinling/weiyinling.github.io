@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Potato Lover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="我们在博物馆里看到的是他们看到的我们的昨天">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Potato Lover">
+<meta property="og:url" content="http://weiyinling.com/index.html">
+<meta property="og:site_name" content="Potato Lover">
+<meta property="og:description" content="我们在博物馆里看到的是他们看到的我们的昨天">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Potato Lover">
+<meta name="twitter:description" content="我们在博物馆里看到的是他们看到的我们的昨天">
+  
+    <link rel="alternate" href="/atom.xml" title="Potato Lover" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/love.png">
+  <link rel="apple-touch-icon" href="/css/images/love.png">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+
+  
+
+  
+  
+  
+
+</head>
+
+
+
+  <body>
+
+
+  
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
+
+      <!-- Support rolling -->  
+        
+        <section class="awSlider">
+          <div class="carousel slide carousel-fade " data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               
+                  
+                    <div class="item active">
+                  
+                    <img id="carousel-img0" src="/css/images/homepage.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img0 = new Image();
+                      var imageTag0 = document.getElementById("carousel-img0");
+                      img0.src = imageTag0.src;
+                      img0.onload=function(){
+                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag0.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag0.style.height = document.body.clientHeight + "px";
+                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">İleri</span>
+            </a>
+          </div>
+        </section>
+        <script>
+          $('section.awSlider .carousel').carousel({
+              pause: '',
+              interval: 5000
+          });
+          var startImage = $('section.awSlider .item.active > img').attr('src');
+          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+              var bscn = $(this).find('.item.active > img').attr('src');
+              $('section.awSlider > img').attr('src', bscn);
+          });
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo"> 
+    
+
+        
+          
+            <img id="homelogoimg" src="/css/images/love.png" >
+          
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var img = new Image();
+        var homelogodiv = document.getElementById("homelogo");
+        img.src = document.getElementById("homelogoimg").src;
+        img.onload=function(){
+          if (img.width > document.body.clientWidth) {
+            document.getElementById("homelogoimg").style.width = document.body.clientWidth + "px";
+            homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+          } else {
+            homelogodiv.style.marginLeft = img.width * -0.5 + "px";
+          }
+        };
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="post-April"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/04/01/April/">April</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/04/01/April/" class="article-date">
+	  <time datetime="2018-04-01T15:47:15.000Z" itemprop="datePublished">2018-04-01</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 感谢YouTube Giraffe Academy 频道的小哥哥，Hexo-20个小视频，讲得非常清楚，一下子搞明白了很多概念。就这样初步入门HTML了，非常的有意思，简直amazing呀。<br> 浑噩三月，2018一个季度就过去了，能入这个门感觉很不错。希望能够学得精一些呀。四月，请善待我呀~</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-lalaland"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/30/lalaland/">la la land 爱乐之城</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/30/lalaland/" class="article-date">
+	  <time datetime="2018-03-30T12:45:24.000Z" itemprop="datePublished">2018-03-30</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/生活/">生活</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="再见-天使之城"><a href="#再见-天使之城" class="headerlink" title="再见 天使之城"></a>再见 天使之城</h1><p>作者 <a href="https://movie.douban.com/review/8254101/" target="_blank" rel="noopener">Prufrock</a>（来自豆瓣）</p>
+<p>洛杉矶有山火，有大风，有已经历时好几年还没能解决的旱灾，但从beverly hills的豪宅到华人区的karaoke lounge，这里的人们总是在这样的粗粝里努力品尝着手边能抓到的所有快乐。洛杉矶有一望无垠的沙漠，除了最坚强的灌木以外寸草不生，但荒原的尽头也有海滩，穿过去就是无边无际的海。碧蓝的海洋拥抱天空，我们拥抱稍纵即逝的欢乐，哪怕下一秒一切就要改变了，还是要扬着脸跳舞。</p>
+<blockquote>
+<p>“Los Angeles weather is the weather of catastrophe, of apocalypse, and, just as the reliably long and bitter winters of New England determine the way life is lived there, so the violence and the unpredictability of the Santa Ana affect the entire quality of life in Los Angeles, accentuate its impermanence, its unreliability. The wind shows us how close to the edge we are.”<br>—Joan Didion, “Los Angeles Notebook”</p>
+</blockquote>
+<p>在阳光下，你一直笑，一直笑，直到心底什么东西突然破碎的时候，直到这里所有的谎言没办法再让你假装相信。<br>在洛杉矶当两个爱做梦的年轻人实在是有太多可能性了。La La Land选择了其中最单调的一种。有点傻乎乎的少女长成了拿着腔调的妇人，天真鲁莽的青年被突如其来的成功震傻了到最后都没能完全恢复。其实可能比起爱任何人我们最爱的永远是自己，只是我们不愿意承认而已。如果直面了这一点，又会是个多有趣的故事呢。</p>
+<blockquote>
+<p>City of stars, are you shining just for me? City of stars, there’s so much that I can’t see.</p>
+</blockquote>
+<p>Seb第一次在海边日落时的栈桥上唱起这首歌的时候我真的掉了眼泪。在那里生活过的每个异乡人都会有那种怅然若失的感受。天使之城经历过很多次地震和大火，还是默然地以群山拥抱一切，她从不特意为谁而闪耀。<br>其实只要对得起自己，我们不需要刻意地去追求成功。<br>最近总是想起1 Corinthians里的一段话。</p>
+<blockquote>
+<p>爱是恒久忍耐，又有仁慈。爱是不嫉妒，爱是不自夸，不张狂。不做害羞的事。不求自己的益处。不轻易发怒。不计算人的恶。不喜欢不义。只喜欢真理。凡事包容。凡事相信。凡事盼望。凡事忍耐。</p>
+</blockquote>
+<p>爱是永不止息。<br>说句我爱你多么容易，可是又有几个人可以说自己真正爱过呢。去爱，去承担和接受自己和别人的弱点，人不应该总是生活在宏大的自我感动里。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/电影/">电影</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-she-walks"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/30/she-walks/">She Walks In Beauty</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/30/she-walks/" class="article-date">
+	  <time datetime="2018-03-30T10:36:28.000Z" itemprop="datePublished">2018-03-30</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/生活/">生活</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://raw.githubusercontent.com/weiyinling/pictures/master/new%20/timg2.jpg" alt="she"></p>
+<p>She walks in beauty, like the night<br>她在美中徜徉；<br>Of cloudless climes and starry skies;<br>仿佛夜晚皎洁无云，繁星漫天<br>And all that’s best of dark and bright<br>正如绝佳的暗与亮</p>
+<p>Meet in her aspect and her eyes:<br>融汇于外貌与眼眸；<br>Thus mellowed to that tender light<br>醇化为如此柔和的光<br>Which heaven to gaudy day denies.<br>俗丽的白昼得不到的恩泽。<br>II.<br>One shade the more, one ray the less,<br>多一道阴影，少一缕光芒，<br>Had half impaired the nameless grace<br>都有损这难以言表的优雅。<br>Which waves in every raven tress,<br>美飘扬在她丝丝乌发中，<br>Or softly lightens o’er her face;<br>或微微闪亮于她的面庞；<br>Where thoughts serenely sweet express<br>愉悦的思想在那里<br>How pure, how dear their dwelling place.<br>颂扬其来处何等纯净可人。<br>III.<br>And on that cheek, and o’er that brow,<br>那脸颊和眉宇那么温柔，<br>So soft, so calm, yet eloquent,<br>那么平静，而且意味深长。<br>The smiles that win, the tints that glow,<br>折服人心的微笑，红润的色彩，<br>But tell of days in goodness spent,<br>诉说着度过的美好时光。<br>A mind at peace with all below,<br>心态平和，与世无争，<br>A heart whose love is innocent!<br>爱心永远纯真!</p>
+<p>Written by <em>Lord Byron (拜伦)</em><br>Translated by Unknown</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/诗歌/">诗歌</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-call-me-by-your-name"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/29/call-me-by-your-name/">请以你的名字呼唤我</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/29/call-me-by-your-name/" class="article-date">
+	  <time datetime="2018-03-29T15:19:26.000Z" itemprop="datePublished">2018-03-29</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/生活/">生活</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="人无再少年"><a href="#人无再少年" class="headerlink" title="#人无再少年"></a>#人无再少年</h2><h4 id="作者：LORENZO-（来自豆瓣）"><a href="#作者：LORENZO-（来自豆瓣）" class="headerlink" title="作者：LORENZO （来自豆瓣）"></a>作者：<a href="hhttps://movie.douban.com/review/9008238/" target="_blank" rel="noopener">LORENZO</a> （来自豆瓣）</h4><p><img src="http://wx2.sinaimg.cn/mw690/005xnhicly1fpv9ml21wkj30u0140dk4.jpg" alt="pic"></p>
+<p>“在你最想不到的时候，命运会以最狡猾的方式找到我们的软肋。但你要记住，我在这儿。现在你也许希望自己不去感觉，也许你希望从不感觉这些，也许你是不想跟我说这些事情，但是…去感觉这些明显的感觉吧！你有过一段美妙的友谊，也许比友谊更多，这让我羡慕。站在我的角度，多数父母会希望整件事淡去，祈祷他们的孩子重新振作 但…我不是那样的家长。为了让我们更快愈合，我们从自己身上剥去了太多东西，以致于不到30岁就一无所有。每开始一段新的感情，能给予对方的就越少。但为了让自己没有感觉而不去感觉，这是多么的浪费! ”</p>
+<p>“我说了不该说的话吗？ 那我再说一件事情，让我们扫除芥蒂。我可能曾经很接近，但我从没有过你们所拥有的。总有什么，牵绊着我，挡在我的前面。怎么过这一生是你的事情。只要…记住，我们的心和身体只被给予这一次，而在你知道前，你的心会疲惫，而你的身体…总有一天没人会愿意多看一眼，更不要说贴近它。现在…你可能感到难过，痛苦。别让它消失，更别说那些有过的快乐。”</p>
+<p>If you were the Mona Lisa, you would be hanging in the Louvre.</p>
+<p>Everyone would come to see you, you would be impossible to move.</p>
+<p>It seems to me is what you are, a rare and priceless work of art.</p>
+<p>Stay behind, your velvet rope, I WILL NOT RENOUNCE ALL HOPE.</p>
+<p>And I am right by your side, like a thief in the night.</p>
+<p>Standing in front of a masterpiece.</p>
+<p>And I cannot tell you why, it hurts so much, to be in love with a masterpiece.</p>
+<p>Cuz after all, nothing is indestructible.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/文艺/">文艺</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/电影/">电影</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-hello-world"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/29/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/29/hello-world/" class="article-date">
+	  <time datetime="2018-03-29T13:56:39.000Z" itemprop="datePublished">2018-03-29</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/学习/">学习</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><ul>
+<li>列表一</li>
+<li>列表二<br>1  子列表</li>
+<li>列表三<br><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a><br><img src="添加图片网站" alt="图片"><br><em>字体斜体</em><br><strong>字体粗体</strong><blockquote>
+<p>引用内容</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Creat-a-new-post"><a href="#Creat-a-new-post" class="headerlink" title="Creat a new post"></a>Creat a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-programming-learning-record"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/29/programming-learning-record/">Programming Learning lecord</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/29/programming-learning-record/" class="article-date">
+	  <time datetime="2018-03-29T08:27:33.000Z" itemprop="datePublished">2018-03-29</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/学习/">学习</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2018-3-29 搭建了第一个博客，用的是Hexo+GitHub。安装了git，node，hexo，还有什么ssh？其实我也不知道他们是什么鬼东西。但是就按照教程一步一步居然真的搭出来了。第一次在本地网页看到hexo的landscape主题的blog页面时激动了一下。其实步骤很简单，顺利的话几分钟就可以，但就是会出现各种bug，所以搞了大半天。对一个刚刚认识终端是什么东西的纯小白来说，cd的使用都是百度搜来的，网上很多教程都太难了，很多时候问题的看见一堆code就吓退了。我觉得真正的入门教程其实真的就需要一步步截图给我看，像教白痴一样的哈哈哈。还有，虽然那个什么CSDN帮了我很多忙，但真的是忍着各种烂皮膏药的广告看下去的额 O__O “…</p>
+<p>2018-3-30<br>更换了NexT主题，认识了一下如何在两个_config.yml文件修改东西。啥标签啊，主页啊，文章啊，icon啊，装X的签名啊，都可以在这里改。原来皮肤还可以这么换。想起了QQ空间时代，换个好看点的皮肤都要花钱…我又试验了一下miccall的主题，主要有很多图片可以上。我试图在微博上传照片，这样确实成功拿到链接了，但是像素都模糊掉了。我要找个新的地方上传图片。千牛网那个为啥还要实名认证？我承认我大把时间花在找一张比较好看高清装X的摄影图上了，unsplash那个网站图片都好哈看但是打开好慢啊…学习了makedown的用法，啥加粗斜杠引言还能这么玩？</p>
+<p>2018-3-31 学点programming，我终于觉得英语有用武之地了…在B站看rainbow小哥哥扫盲Git和GitHub，我已经登录GitHub网站好几次了，我还是不知道这是个什么鬼东西 O__O “…</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+
+
+</section>
+        
+      </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2018 Potato Lover All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+  <script src="/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Potato Lover
+          </div>
+          <div class="panel-body">
+            Copyright © 2018 Yinling All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
