@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://weiyinling.com/about/index.html</loc>
+    
+    <lastmod>2018-04-14T15:13:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://weiyinling.com/2018/04/14/python/</loc>
     
     <lastmod>2018-04-14T14:58:46.000Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://weiyinling.com/2018/04/01/April/</loc>
     
     <lastmod>2018-04-10T09:10:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://weiyinling.com/about/index.html</loc>
-    
-    <lastmod>2018-04-02T18:56:32.000Z</lastmod>
     
   </url>
   
